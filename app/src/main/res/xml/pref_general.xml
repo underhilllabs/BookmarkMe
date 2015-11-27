@@ -26,7 +26,6 @@
 
     <!-- API Authentication Token -->
     <EditTextPreference
-        android:inputType="textCapWords"
         android:key="api_user_token"
         android:maxLines="1"
         android:selectAllOnFocus="true"
