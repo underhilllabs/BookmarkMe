@@ -2,8 +2,22 @@
     <string name="app_name">BookmarkMe</string>
 
     <!-- Strings related to Settings -->
+    <string name="api_token_label">API Token</string>
+    <string name="api_user_id_label">User ID</string>
+    <string name="api_url_label">Bookies Address</string>
+    <string name="api_url_default">http://bkmark.me</string>
+
+    <!-- Strings related to BookmarkMe -->
+    <string name="bookmark_url_label">Address</string>
+    <string name="bookmark_title_label">Title</string>
+    <string name="bookmark_description_label">Description</string>
+    <string name="bookmark_tags_label">Tags</string>
+    <string name="bookmark_privacy_label">Private</string>
+    <string name="bookmark_archive_label">Archive Page</string>
+    <string name="bookmark_submit_label">Save Bookmark</string>
 
     <!-- Example General settings -->
+
     <string name="pref_header_general">General</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
