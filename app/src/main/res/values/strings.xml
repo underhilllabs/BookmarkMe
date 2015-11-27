@@ -14,7 +14,7 @@
     <string name="bookmark_tags_label">Tags</string>
     <string name="bookmark_privacy_label">Private</string>
     <string name="bookmark_archive_label">Archive Page</string>
-    <string name="bookmark_submit_label">Save Bookmark</string>
+    <string name="bookmark_submit_label">Create Bookmark</string>
 
     <!-- Example General settings -->
 
@@ -72,4 +72,7 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="api_user_id_default">1</string>
+    <string name="title_activity_add_bookmark">Add Bookmark</string>
+    <string name="bookmark_button">Create Bookmark</string>
 </resources>

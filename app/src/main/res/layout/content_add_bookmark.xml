@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Address"
+            android:text="@string/bookmark_url_label"
             android:id="@+id/bookmarkAddressLabel"
             style="@style/AppTheme" />
 
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
+            android:text="@string/bookmark_title_label"
             android:id="@+id/bookmarkTitleLabel" />
 
         <EditText
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description"
+            android:text="@string/bookmark_description_label"
             android:id="@+id/bookmarkDescLabel" />
 
         <EditText
@@ -60,7 +60,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tags"
+            android:text="@string/bookmark_tags_label"
             android:id="@+id/bookmarkTagsLabel" />
 
         <EditText
@@ -71,21 +71,21 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Private"
+            android:text="@string/bookmark_privacy_label"
             android:id="@+id/checkBoxPrivate"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Archive Page"
+            android:text="@string/bookmark_archive_label"
             android:id="@+id/checkBoxArchive"
             android:checked="false" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bookmark_button"
+            android:text="@string/bookmark_submit_label"
             android:id="@+id/buttonCreateBookmark"
             android:clickable="true"
             android:enabled="true"
