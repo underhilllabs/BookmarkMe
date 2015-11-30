@@ -5,7 +5,7 @@
     <string name="api_token_label">API Token</string>
     <string name="api_user_id_label">User ID</string>
     <string name="api_url_label">Bookies Address</string>
-    <string name="api_url_default">http://bkmark.me</string>
+    <string name="api_url_default">https://bkmark.me</string>
 
     <!-- Strings related to BookmarkMe -->
     <string name="bookmark_url_label">Address</string>
