@@ -11,13 +11,15 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 /**
- * Created by bart on 11/28/15.
+ * PostBookmark
+ *
+ * class to encapsulate posting bookmarks to the web application.
  */
-public class PostBookmark {
-    public static final MediaType JSON
+class PostBookmark {
+    private static final MediaType JSON
             = MediaType.parse("application/json; charset=utf-8");
 
-    OkHttpClient client = new OkHttpClient();
+    private OkHttpClient client = new OkHttpClient();
 
     String post(String url, String json) throws IOException {
 
@@ -49,12 +51,4 @@ public class PostBookmark {
         }
        return bookmark.toString();
     }
-    /*
-    public static void main(String[] args) throws IOException {
-        PostBookmark example = new PostBookmark();
-        String json = example.bowlingJson("Jesse", "Jake");
-        String response = example.post("http://www.roundsapp.com/post", json);
-        System.out.println(response);
-    }
-   */
 }
