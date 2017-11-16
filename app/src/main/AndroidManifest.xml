@@ -31,14 +31,17 @@
             <!-- Main Activity -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <!-- Sharing a link Intent -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
@@ -50,6 +53,10 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ListBookmarksActivity"
+            android:label="@string/title_activity_list_bookmarks"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
